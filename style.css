@@ -49,3 +49,17 @@ p {
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+.boton {
+    font-family: arial narrow;
+    width: 9%;
+    padding: 10px 20px;
+    transition: all 500ms;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.boton :hover {
+    background: #ffffff;
+    color: #434343;
+    cursor: pointer;
+}
