@@ -27,3 +27,16 @@
     height: 100%;
     background: rgb(0, 98, 123, 0.5);
 }
+
+.container {
+    margin-left: 40px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: berlin sans fb;
+    font-weight: 100px;
+    font-size: 60px;
+    transform: translateY(100%);
+    margin-bottom: 80px;
+}
