@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.portada {
+    width: 100%;
+    height: 500px;
+    background: url("imagenes/Overhead-Full-Famil2B23F33-HORIZ.jpg");
+    background-size: 100%;
+    animation: movimiento 15s infinite linear alternate;
+    background-repeat: no-repeat;
+}
