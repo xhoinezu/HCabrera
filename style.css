@@ -12,3 +12,18 @@
     animation: movimiento 15s infinite linear alternate;
     background-repeat: no-repeat;
 }
+
+@keyframes movimiento {
+    from {
+        background-position: bottom left;
+    }
+    to {
+        background-position: top right;
+    }
+}
+
+.capa {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 98, 123, 0.5);
+}
