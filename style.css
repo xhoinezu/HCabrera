@@ -68,3 +68,18 @@ p {
     color: #434343;
     cursor: pointer;
 }
+
+.seccionCarrusel {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imagenCarrusel {
+    height: 500px;
+}
+
+.alert {
+    text-align: center;
+}
