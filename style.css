@@ -68,6 +68,7 @@
         color: #434343;
         cursor: pointer;
     }
+    /*CSS CARRUSEL*/
     
     .seccionCarrusel {
         margin-top: 100px;
@@ -75,6 +76,7 @@
         margin-left: 100px;
         margin-right: 100px;
     }
+    /*CSS CARRUSEL*/
     
     .imagenCarrusel {
         height: 500px;
@@ -133,15 +135,18 @@
     a img:hover {
         color: #fff;
     }
+    /*CSS pie de texto carrusel*/
     
     .pieCarrusel {
         margin-left: 100px;
         margin-right: 100px;
     }
+    /*CSS MENÚ INICIO*/
     
     .barraMenu {
         margin-bottom: 20px;
     }
+    /*CSS TIPO REPUESTOS*/
     
     div.gallery {
         margin: 35px;
@@ -163,8 +168,4 @@
     div.desc {
         padding: 30px;
         text-align: center;
-    }
-    
-    .pieRepuestos {
-        margin-bottom: 100px;
     }
