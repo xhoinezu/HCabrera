@@ -95,7 +95,7 @@
         width: 20%;
         height: 30px;
         padding: 5px 10px;
-        background-color: rgba(0, 49, 112, 0.822);
+        background-color: #003170d2;
         border: 1px solid #000;
         text-align: center;
         color: #fff;
@@ -141,4 +141,26 @@
     
     .barraMenu {
         margin-bottom: 20px;
+    }
+    
+    div.gallery {
+        margin: 35px;
+        border: 2px solid rgb(118, 136, 243);
+        float: left;
+        width: 170px;
+        margin-left: 150px;
+    }
+    
+    div.gallery:hover {
+        border: 1px solid rgb(5, 0, 0);
+    }
+    
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 30px;
+        text-align: center;
     }
