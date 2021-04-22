@@ -308,6 +308,8 @@ body{
 
 /*========== SECCIÓN SERVICIOS ==========*/
 
+
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 .servicios{
   padding: 0 40px;
@@ -836,3 +838,4 @@ footer{
 .my-whatsappfloat {
     margin-top: 16px;
 }
+
