@@ -27,8 +27,7 @@
     }</style>
 
     <!-- LINK A .CSS -->
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">    
 </head>
 
 <body>
@@ -487,20 +486,23 @@
                   <div class="screen-body-item">
                     <div class="app-form">
                       <div class="app-form-group">
-                        <input class="app-form-control" placeholder="TU NOMBRE">
-                      </div>
+                        <input type="text" id="itNombre" class="app-form-control" placeholder="NOMBRE">
+                        <div id="mensaje1" class="errores">Nombre inválido</div>
+                    </div>
                       <div class="app-form-group">
-                        <input class="app-form-control" placeholder="TU EMAIL">
-                      </div>
+                        <input type="text" id="itEmail" class="app-form-control" placeholder="EMAIL">
+                        <div id="mensaje2" class="errores">Email inválido</div>
+                    </div>
                       <div class="app-form-group">
-                        <input class="app-form-control" placeholder="TU CELULAR/TELÉFONO">
-                      </div>
+                        <input type="text" id="itCelular" maxlength="8" class="app-form-control integer" placeholder="CELULAR (8 dígitos)">
+                        <div id="mensaje3" class="errores">Celular inválido</div>
+                    </div>
                       <div class="app-form-group message">
-                        <input class="mensaje-contacto app-form-control" placeholder="MENSAJE">
-                      </div>
+                        <input type="text" id="itMensaje" maxlength="2000" class="mensaje-contacto app-form-control" placeholder="MENSAJE">
+                        <div id="mensaje4" class="errores">Escribe un mensaje</div>
+                    </div>
                       <div class="app-form-group buttons">
-                        
-                        <button class="app-form-button">ENVIAR</button>
+                        <button type="submit" id="bEnviar" class="boton">ENVIAR</button>
                       </div>
                     </div>
                   </div>
@@ -509,8 +511,6 @@
             </div>
           </div>
           
-      
-        
     </section>
     <!--▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ FOOTER ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄-->
     <footer>
@@ -585,5 +585,15 @@
     <a href="https://api.whatsapp.com/send?phone=+56982400802&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios." class="whatsappfloat" target="_blank">
         <i class="fa fa-whatsapp my-whatsappfloat"></i>
     </a>
+
+
+
+    <!--█ JAVASCRIPT █-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src=".js/script.js"></script>
+    <script src=".js/jquery-3.6.0.js"></script>
+    <script src=".js/jquery.numeric.js"></script>
 </body>
 <html>

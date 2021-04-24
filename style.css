@@ -537,6 +537,7 @@ body{
   position: relative;
   background: #3e3e3e;
   border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .screen:after {
@@ -642,16 +643,17 @@ body{
   border-bottom-color: #ddd;
 }
 
-.app-form-button {
+#bEnviar {
   background: none;
   border: none;
   color: #f5d000;
   font-size: 14px;
   cursor: pointer;
   outline: none;
+  
 }
 
-.app-form-button:hover {
+#bEnviar:hover {
   color: #bed398;
 }
 
@@ -919,3 +921,21 @@ footer{
     margin-top: 16px;
 }
 
+/*ESTILO PARA ERRORES*/
+
+.errores{
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  background: rgba(255, 0, 0, 0.692);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  color: #fff;
+  display: none;
+  font-size: 14px;
+  margin-top: -40px;
+  margin-left: 250px;
+  width: 140px;
+  padding: 3px;
+  position: absolute;
+
+}
