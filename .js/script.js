@@ -1,5 +1,5 @@
  //Expresión para validar un correo electrónico
- var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/; //ignorar si está rojo... NO está malo.
+ var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/; 
 
 
  $(document).ready(function() {
