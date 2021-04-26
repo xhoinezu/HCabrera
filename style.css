@@ -930,7 +930,7 @@ footer{
   background: rgba(255, 0, 0, 0.692);
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   color: #fff;
-  
+  display: none;
   font-size: 14px;
   margin-top: -40px;
   margin-left: 250px;
