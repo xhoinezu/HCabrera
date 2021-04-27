@@ -240,7 +240,7 @@ body{
 }
 
 .textoPortada {
-    width: 700px;
+    width: auto;
     padding-left: 10vh;
     padding-top: 35vh;
 }
