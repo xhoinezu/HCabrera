@@ -59,7 +59,7 @@ body{
   z-index: 2;
   padding: 4px 0;
   transition: all 0.3s ease;
-  background-color: #ffbc03ce; /*FONDO MENÚ*/
+  background-color: #ffbc03e7; /*FONDO MENÚ*/
   margin-top: 5vh;
 }
 .navbar.sticky{
@@ -209,25 +209,63 @@ body{
 
 /*========== SECCIÓN PORTADA ==========*/
 
+@font-face {
+  font-family: Boldfinger;
+  src: url(fonts/Tunning.ttf);
+}
+
+@font-face {
+  font-family: Speed;
+  src: url(fonts/sufrimeda.ttf);
+}
+
 .bienvenido{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    color: #ffffff;
+    font-family: Boldfinger;
+    font-size: 60px;
+    color: #ffd900;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);;
+}
+
+.bienvenidomensaje{
+  font-family: Speed;
+    font-size: 25px;
+    color: #ffd900;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.438);;
 }
 
 .bienvenidomarcas{
     font-size: 17px;
     color: #ffffff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.438);;
 }
+
+@media screen and (max-width: 770px) {
+  .bienvenido{
+    font-size: 38px;
+}
+
+.bienvenidomensaje{
+    font-size: 20px;
+}
+
+.bienvenidomarcas{
+    font-size: 15px;
+}
+  }
 
 .divPortada {
     width: 100%;
-    height: 120%;
+    height: 100vh;
     padding-top: auto;
     padding-left: 0;
     padding-right: 0;
-
 }
+
+@media screen and (max-width: 869px) {
+  .divPortada {
+    height: 120%;
+}
+  }
 
 .portada {
     padding: 0;
@@ -243,7 +281,18 @@ body{
     width: auto;
     padding-left: 10vh;
     padding-top: 35vh;
+    padding-right: 20vh;
 }
+
+@media screen and (max-width: 869px) {
+  .textoPortada {
+    padding-top: 35vh;
+    padding-bottom: 10vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    text-align: center;
+}
+  }
 
 @keyframes movimiento {
     from {
@@ -282,6 +331,15 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+@media screen and (max-width: 869px) {
+  .textobarra{
+    font-size: 27px;
+    margin: auto;
+    padding-left: 0px;
+    text-align: center;
+}
+  }
+
 /*--ZONA INFORMACIÓN CONÓCENOS--*/
 .hcabrera-info{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -303,6 +361,7 @@ body{
 .infosec2{
   padding: 0;
   margin: 0;
+  margin-right: 30px;
 }
 
 .infoizquierda{
@@ -947,7 +1006,7 @@ footer{
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
     z-index: 100;
 }
 
