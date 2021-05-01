@@ -509,10 +509,7 @@ body{
 .cuadroImagen {
   margin-bottom: 30px;
 }
-.fondoImagenM {
-  margin-left: 100px;
-  margin-right: 100px;
-}
+
 .descripcionRepuesto {
   letter-spacing: 9px;
   text-align: center;
@@ -533,6 +530,21 @@ body{
   height: 100px;
 }
 
+.fondoImagenM {
+  margin-right: 85px;
+  margin-left: 85px;
+}
+
+@media screen and (max-width: 1080px) {
+  .fondoImagenM {   
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+}
+
+
+
+
 
 /*▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ SECCIÓN 5 ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄*/
 *, *:before, *:after {
@@ -548,10 +560,11 @@ body{
 }
 
 .container {
-  flex: 0 1 700px;
+  max-width: 700px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
+  
 }
 
 .screen {
@@ -606,7 +619,7 @@ body{
 }
 
 .app-title {
-  display: flex;
+  
   flex-direction: column;
   position: relative;
   color: #f5d000;
@@ -719,7 +732,12 @@ body{
   .screen-body-item {
     padding: 0;
   }
+
+  .app-title{
+    font-size: 27px
+  }
 }
+
 
 
 
@@ -978,3 +996,7 @@ color: #f5d000;
 #itMensaje{
   height: 60px;
 }
+
+
+
+
