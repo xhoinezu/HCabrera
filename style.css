@@ -993,7 +993,7 @@ footer{
 .bloque2dolar{
   color: white;
   text-align: center;
-  background-color: rgb(33, 165, 7);
+  background: linear-gradient(to bottom, #58cc41, #21a507);
   box-shadow: 0 0 2px rgba(0,0,0,0.3);
 }
 
