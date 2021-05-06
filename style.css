@@ -219,6 +219,10 @@ body{
   src: url(fonts/sufrimeda.ttf);
 }
 
+@font-face {
+  font-family: Boldfinger;
+  src: url(fonts/Tunning.ttf);
+}
 .bienvenido{
     font-family: Boldfinger;
     font-size: 60px;
