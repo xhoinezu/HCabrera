@@ -220,8 +220,8 @@ body{
 }
 
 @font-face {
-  font-family: Boldfinger;
-  src: url(fonts/Tunning.ttf);
+  font-family: PoetsenOne;
+  src: url(fonts/PoetsenOne.ttf);
 }
 .bienvenido{
     font-family: Boldfinger;
