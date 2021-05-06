@@ -967,6 +967,50 @@ footer{
 .bottom center a:hover{
   text-decoration: underline;
 }
+
+.content{
+  color: white;
+}
+
+.bloque1dolar{
+  background-color: rgb(26, 26, 26);
+  padding-bottom: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.199);
+}
+
+.titulodolar{
+  text-align: center;
+  font-family: PoetsenOne;
+  font-size: 22px;
+}
+
+.bloque2dolar{
+  color: white;
+  text-align: center;
+  background-color: rgb(33, 165, 7);
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+#dolar{
+  margin-bottom: 5px;
+}
+
+.textvalordia{
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  color: #808080;
+}
+
+#fechadolar{
+  text-align: center;
+  margin-bottom: 2px;
+  color: #808080;
+  font-size: 12px;
+}
+
 @media screen and (max-width: 900px) {
   footer{
     position: relative;
