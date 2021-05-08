@@ -11,8 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -486,22 +485,22 @@
                     <div class="app-contact">Contacto Directo: +569 82400802</div>
                   </div>
                   <div class="screen-body-item">
-                    <div class="app-form">
-                      <div class="app-form-group">
-                        <input type="text" id="itNombre" class="app-form-control" placeholder="NOMBRE">
+                    <div id="formulario" class="app-form">
+                      <div id="gruponombre" class="app-form-group">
+                        <input type="text" name="nombre" id="itNombre" class="app-form-control" placeholder="NOMBRE">
                         <div id="mensaje1" class="errores">Nombre inválido</div>
                     </div>
-                      <div class="app-form-group">
-                        <input type="text" id="itEmail" class="app-form-control" placeholder="EMAIL">
+                      <div id="grupoemail" class="app-form-group">
+                        <input type="text" name="email" id="itEmail" class="app-form-control" placeholder="EMAIL">
                         <div id="mensaje2" class="errores">Email inválido</div>
                     </div>
-                      <div class="app-form-group celu">
+                      <div id="grupocelular" class="app-form-group celu">
                           <p class="verificador">+569</p>
-                        <input type="text" id="itCelular" maxlength="8" class="app-form-control integer" placeholder="CELULAR (8 dígitos)">
+                        <input type="text" name="celular" id="itCelular" maxlength="8" class="app-form-control integer" placeholder="CELULAR (8 dígitos)">
                     </div>
                     <div id="mensaje3" class="errores">Celular inválido</div>
-                      <div class="app-form-group message">
-                        <input type="text" id="itMensaje" maxlength="2000" class="mensaje-contacto app-form-control" placeholder="MENSAJE">
+                      <div id="grupomensaje" class="app-form-group message">
+                        <input type="text" name="mensaje" id="itMensaje" maxlength="2000" class="mensaje-contacto app-form-control" placeholder="MENSAJE">
                         <div id="mensaje4" class="errores">Escribe un mensaje</div>
                     </div>
                       <div class="app-form-group buttons">
@@ -594,7 +593,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <script src="js/jquery-3.6.0.js"></script>
     <script src="js/jquery.numeric.js"></script>
     <script src="js/script.js"></script>
 </body>
