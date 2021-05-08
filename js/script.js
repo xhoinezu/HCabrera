@@ -39,7 +39,7 @@ const validarFormulario2 = (e) => {
     var celular = $("#itCelular").val();
     var mensaje = $("#itMensaje").val();
     if(e.target.name == 'nombre'){
-        if (nombre ==""){
+        if (nombre =="" || nombre.length < 2){
             document.getElementById('gruponombre').classList.add('app-form-control-incorrecto');
             return false;
         }else{

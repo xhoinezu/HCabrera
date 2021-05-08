@@ -726,16 +726,13 @@ body{
   background: none;
   border: none;
   border-bottom: 1px solid #666;
-  color: #ddd;
+  color: rgb(221, 221, 221);
   font-size: 14px;
   text-transform: initial;
   outline: none;
   transition: border-color .2s;
 }
 
-.app-form-control-incorrecto {
-  border-bottom: 1px solid rgb(199, 19, 19);
-}
 
 .app-form-control::placeholder {
   color: #666;
@@ -743,6 +740,11 @@ body{
 
 .app-form-control:focus {
   border-bottom-color: #ddd;
+}
+
+.app-form-control-incorrecto {
+  border-bottom: 2px solid rgb(199, 19, 19);
+  
 }
 
 #bEnviar {
