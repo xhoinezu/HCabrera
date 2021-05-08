@@ -840,6 +840,59 @@ color: #f5d000;
   height: 60px;
 }
 
+/*validaciones de formulario responsivas*/
+@media screen and (max-width: 903px) {
+  .errores {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 731px) {
+  .errores {
+    margin-left: -140px;
+    background: rgba(223, 1, 1, 0.747);
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .errores {
+    margin-left: 280px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .errores {
+    margin-left: 250px;
+    font-size: 12px;
+    width: 119px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .errores {
+    margin-left: 210px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .errores {
+    margin-left: 170px;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  .errores {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 299px) {
+  .errores {
+    margin-left: 80px;
+  }
+}
+
+
 /*▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ FOOTER ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄*/
 
 /*---INICIO | FOOTER INFERIOR---*/
@@ -1101,54 +1154,3 @@ footer{
     margin-top: 16px;
 }
 
-/*validaciones de formulario responsivas (no me dejó colocarlo en la sección del formulario :c)*/
-
-@media screen and (max-width: 903px) {
-  .errores {
-    margin-left: 200px;
-  }
-
-@media screen and (max-width: 731px) {
-  .errores {
-    margin-left: -140px;
-    background: rgba(223, 1, 1, 0.747);
-  }
-}
-
-@media screen and (max-width: 519px) {
-  .errores {
-    margin-left: 280px;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  .errores {
-    margin-left: 250px;
-    font-size: 12px;
-    width: 119px;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .errores {
-    margin-left: 210px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .errores {
-    margin-left: 170px;
-  }
-}
-
-@media screen and (max-width: 348px) {
-  .errores {
-    margin-left: 120px;
-  }
-}
-
-@media screen and (max-width: 299px) {
-  .errores {
-    margin-left: 80px;
-  }
-}
