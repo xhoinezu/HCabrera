@@ -797,21 +797,48 @@ body{
   .screen-body {
     padding: 40px;
   }
-
   .screen-body-item {
     padding: 0;
   }
-
   .app-title{
     font-size: 27px
   }
 }
 
 
+/*ESTILO PARA ERRORES*/
+.errores{
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  background: rgba(214, 0, 0, 0.89);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  color: #fff;
+  display:none;
+  font-size: 14px;
+  margin-top: -40px;
+  margin-left: 250px;
+  width: 134px;
+  padding: 3px;
+  position: absolute;
+  text-align: center;
+}
 
+.celu{
+  display: flex;
+  margin-bottom: 0;
+}
 
+.verificador{
+  margin-bottom: 0;
+margin-top: 8px;
+margin-right: 5px;
+color: #f5d000;
+}
 
-
+#itMensaje{
+  height: 60px;
+}
 
 /*▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ FOOTER ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄*/
 
@@ -1074,40 +1101,54 @@ footer{
     margin-top: 16px;
 }
 
-/*ESTILO PARA ERRORES*/
+/*validaciones de formulario responsivas (no me dejó colocarlo en la sección del formulario :c)*/
 
-.errores{
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  -o-box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  background: rgba(255, 0, 0, 0.692);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  color: #fff;
-  display:none;
-  font-size: 14px;
-  margin-top: -40px;
-  margin-left: 250px;
-  width: 140px;
-  padding: 3px;
-  position: absolute;
+@media screen and (max-width: 903px) {
+  .errores {
+    margin-left: 200px;
+  }
+
+@media screen and (max-width: 731px) {
+  .errores {
+    margin-left: -140px;
+    background: rgba(223, 1, 1, 0.747);
+  }
 }
 
-.celu{
-  display: flex;
-  margin-bottom: 0;
+@media screen and (max-width: 519px) {
+  .errores {
+    margin-left: 280px;
+  }
 }
 
-.verificador{
-  margin-bottom: 0;
-margin-top: 8px;
-margin-right: 5px;
-color: #f5d000;
+@media screen and (max-width: 475px) {
+  .errores {
+    margin-left: 250px;
+    font-size: 12px;
+    width: 119px;
+  }
 }
 
-#itMensaje{
-  height: 60px;
+@media screen and (max-width: 430px) {
+  .errores {
+    margin-left: 210px;
+  }
 }
 
+@media screen and (max-width: 390px) {
+  .errores {
+    margin-left: 170px;
+  }
+}
 
+@media screen and (max-width: 348px) {
+  .errores {
+    margin-left: 120px;
+  }
+}
 
-
+@media screen and (max-width: 299px) {
+  .errores {
+    margin-left: 80px;
+  }
+}
