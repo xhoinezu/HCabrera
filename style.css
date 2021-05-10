@@ -44,6 +44,14 @@ body{
       .clima{
         font-size: 12px;
       }
+
+      .whats{
+        font-size: 14px;
+      }
+
+      .infoem{
+        font-size: 14px;
+      }
     }
 
     @media screen and (max-width: 967px){
@@ -164,6 +172,7 @@ body{
 
   .infowhats{
     text-align: center;
+    
   }
   
   .infoem{
@@ -656,7 +665,7 @@ body{
 
 .ventana-contacto {
   display: flex;
-  min-height: 85vh;
+  min-height: 58vh;
 }
 
 .container {
