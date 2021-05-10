@@ -8,10 +8,10 @@ body{
 /*========== HEADER SUPERIOR ==========*/
 
 /*-----BARRA TOP CONTACTO-----*/
-    .divMenu {
+    .barra-top {
         color: #ffffff;
         font-family: Arial, Helvetica, sans-serif;
-        background: #000000;
+        background: linear-gradient(to bottom, #494949, #1a1a1a);
         position: fixed;
         width: 100%;
         height: 5vh;
@@ -19,16 +19,40 @@ body{
         z-index: 2;
     }
     
-    .contIzq {
-        text-align: center;
-    }
-
-    .contDer {
-        text-align: center;
-        padding-right: 0%;
-        margin-right: 0%;
+    .contenido{
+      margin-top: 10px;
     }
     
+    .infowhats{
+      text-align: right;
+    }
+    
+    
+    .clima{
+      display: flex;
+    }
+    
+    .line{
+      margin: 0px 4px 0px 4px;
+    }
+    
+    .information{
+      margin-left: 4px;
+    }
+
+    @media screen and (max-width: 1225px){
+      .clima{
+        font-size: 12px;
+      }
+    }
+
+    @media screen and (max-width: 967px){
+      .clima{
+        font-size: 9px;
+      }
+    }
+
+
 /*---------MENÚ-----------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
@@ -132,11 +156,24 @@ body{
 
 @media screen and (max-width: 767px){
   .navbar{
-    margin-top: 8vh;
+    margin-top: 8.92vh;
   }
-  .divMenu{
-    height: 10vh;
+  .barra-top{
+    height: 9vh;
   }
+
+  .infowhats{
+    text-align: center;
+  }
+  
+  .infoem{
+    text-align: center;
+  }
+  .clima{
+    display: none;
+  }
+
+
 }
 
 @media (max-width: 1230px) {

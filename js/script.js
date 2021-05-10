@@ -8,7 +8,7 @@ const inputs = document.querySelectorAll("#formulario input");
 const validarFormulario = (e) => {
     if(e.target.name == 'nombre'){
         var nombre = $("#itNombre").val();
-        if (nombre ==""){
+        if (nombre =="" || nombre.length < 2){
             $("#mensaje1").fadeIn();
             return false;
         };
