@@ -448,7 +448,7 @@ body{
 }
 .card{
   height: 280px;
-  max-width: 350px;
+  max-width: 440px;
   margin: 0 20px;
   background: white;
   transition: 0.4s;
